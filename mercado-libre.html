@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clon mercado libre</title>
+    <link rel="stylesheet" href="css/mercado-libre.css">
+    <script src="https://kit.fontawesome.com/47910d8a72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav id="nav_oculto">
+
+        <div id="titulo" class="name__page">
+          <h4><span>K</span>evin</h4>
+        </div>
+    
+        <ul class="menu">
+          <li class="submenu"><a href="sesion-java-script.html"><i class="fas fa-home"></i>Volver</a></li>
+          <li class="submenu"><a href="carrito-compras.html"><i class="far fa-file"></i>Carro de compras</a></li>
+          <li class="submenu"><a href="formulario-js.html"><i class="far fa-file"></i>Formulario</a></li>
+          <li class="submenu"><a href="mercado-libre.html" id="selected"><i class="far fa-file"></i>Clon de mercado libre</a></li>
+          <li class="submenu"><a href="homecenter.html"><i class="far fa-file"></i>Clon de Homecenter</a></a></li>
+          
+        </ul>
+    </nav>
+
+    <div id="contenido_principal_desplegado">
+
+        <div class="header">
+            <div class="logoMenu">
+                <i id="btn_open" class="fas fa-bars"></i>
+            </div>
+            <div class="barraBusqueda">
+                <input id="textoBusqueda" type="text" placeholder="Busca productos, marcas y más...">
+            </div>
+            <div class="logoCarrito">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </div>
+        
+        <div class="mainContent" id="mainContent"></div>
+
+    </div>
+    
+    <script src="js/mercado-libre.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

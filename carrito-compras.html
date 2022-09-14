@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="css/carrito-compras.css">
+</head>
+<body>
+    <div class="principal">
+        <div class="parteSuperior">
+            <h2>Subtotal   COP <span id="subtotal">0</span></h2>
+            <div class="pagoProductos">
+                <h2>Proceder al pago (<span id="numProductos">0</span> <span id="producto"> Productos</span>)</h2>
+            </div>
+        </div>
+        <div class="divisionCaratula">
+            <div class="caratula"></div>
+            <div class="descripcion">
+                <h1>Assassin's Creed Valhalla</h1><br>
+                <h2>Por Ubisoft</h2><br>
+                <h2>COP <span id="precioEstable"></span></h2>
+            </div>
+        </div>
+        <div class="parteInferior">
+            <div class="cantidadUnidades">
+                <div class="suma" onclick="disminuir();"></div>
+                <input readonly class="numeroUnidades" type="text" id="numUnidades" value="0">
+                <div class="resta" onclick="aumentar();"></div>
+            </div>
+            <div class="otrasOpciones">
+                <div class="eliminar">
+                    <h2>Eliminar</h2>
+                </div>
+                <div class="guardar">
+                    <h2>Guardar para mas tarde</h2>
+                </div>
+            </div>
+        </div>
+        <div class="guardar-screen">
+            <h2>Guardar para mas tarde</h2>
+        </div>
+    </div>
+    <script src="js/carrito-compras.js"></script>
+</body>
+</html>

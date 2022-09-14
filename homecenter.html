@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clon de Homecenter</title>
+    <link rel="stylesheet" href="css/homecenter.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- MAQUETA REALIZADA CON FINES UNICAMENTE EDUCATIVOS -->
+
+    <nav id="nav_oculto">
+
+        <div id="titulo" class="name__page">
+          <h4><span>K</span>evin</h4>
+        </div>
+    
+        <ul class="menu">
+          <li class="submenu"><a href="sesion-java-script.html"><i class="fas fa-home"></i>Volver</a></li>
+          <li class="submenu"><a href="carrito-compras.html"><i class="far fa-file"></i>Carro de compras</a></li>
+          <li class="submenu"><a href="formulario-js.html"><i class="far fa-file"></i>Formulario</a></li>
+          <li class="submenu"><a href="mercado-libre.html"><i class="far fa-file"></i>Clon de mercado libre</a></li>
+          <li class="submenu"><a href="homecenter.html" id="selected"><i class="far fa-file"></i>Clon de Homecenter</a></a></li>
+          
+        </ul>
+    </nav>
+
+    <div id="contenido_principal_desplegado">
+
+        <div id="header-movil"class="contenedor-barra-busqueda-movil-out">
+
+            <div class="barra-busqueda-movil">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input placeholder="¿Qué estás buscando?" type="text">
+                <i id="boton-cerrar-header" class="fa-solid fa-xmark"></i>
+            </div>
+    
+        </div>
+    
+        <header id="header">
+            
+            <div class="img-logo">
+    
+                <i id="btn_open" class="fa-solid fa-bars menu-movil"></i>
+    
+                <img class="img-logo-web" src="img/homecenter-logo.jpg" alt="Imagen del logo">
+    
+                <img class="img-logo-movil" src="img/homecenter-casa.jpg" alt="Imagen del logo en movil">
+            </div>
+            <div class="contenedor-barra-busqueda">
+    
+                <i id="header-movil-open" class="fa-solid fa-magnifying-glass"></i>
+    
+                <div class="barra-busqueda">
+                    <input placeholder="¿Qué estás buscando?" type="text">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+    
+            </div>
+            <div class="lista">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h2>Bogotá DC</h2>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div class="contador-carrito">0</div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-user"></i>
+                        <h2>Mi cuenta</h2>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    
+        <img class="principal" src="img/principal-homecenter.png" alt="">
+        <img class="movil" src="img/principal-homecenter-movil.png" alt="">
+    
+        <div id="chat-box" class="chat-box-out">
+            <div id="all-content" class="all-content-out">
+                <div class="header-box-in">
+                    <div>
+                        <i class="fa-solid fa-bars"></i>
+                        <p>Menú</p>
+                    </div>
+                    <div class="img-avatar">
+                        <img src="img/homecenter-avatar-ana-in.png" alt="">
+                    </div>
+                    <div id="botonCerrar">
+                        <i class="fa-solid fa-xmark"></i>
+                        <p>Cerrar</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <input placeholder="Escribe tu mensaje..." type="text">
+                    <div>
+                        <img src="img/icon-enviar-mensaje.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="chat-box-disable" class="chat-box-disable-out"></div>
+
+    </div>
+
+    <script src="js/homecenter.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
